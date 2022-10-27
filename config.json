@@ -1,0 +1,7 @@
+{
+  "SENIOR_STAFF_ROLE_ID": "909624295125299280",
+  "STAFF_ROLE_ID": "904695662938050632",
+  "prefix": "-",
+  "asjdhgkjasdhbadfgcogs": ["cogs.monkey", "cogs.owner", "cogs.donate", "cogs.dev", "cogs.exception", "cogs.wolfram"],
+  "cogs": ["cogs.exception", "cogs.google"]
+}
