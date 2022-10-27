@@ -4,7 +4,7 @@ import os
 import json
 import asyncio
 import typing
-from cogs.webhooklog import webhooklog
+# from cogs.webhooklog import webhooklog
 
 fNum = lambda x: "{:,}".format(float(x))
 
