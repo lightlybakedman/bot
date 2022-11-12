@@ -64,7 +64,7 @@ class Google(commands.Cog):
             results.append(j)
         return results
 
-    @commands.command(name="google", aliases=["g"])
+    @commands.hybrid_command(name="google", aliases=["g"])
     async def google(self, ctx, *, query):
         async with ctx.typing():
             searches = self.getgoogleresults(query)
