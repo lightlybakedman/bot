@@ -8,7 +8,8 @@ import typing
 
 fNum = lambda x: "{:,}".format(float(x))
 
-from config import TOKEN, COGS, PREFIX
+from config import COGS, PREFIX
+from token import TOKEN
 
 intents = discord.Intents.all()
 
@@ -36,16 +37,3 @@ async def on_ready():
 
 
 bot.run(TOKEN)
-
-# Commands:
-# Stats - list info, number of donations, total
-# Ping
-# Settings:
-#   Prefix
-#   Staff roles
-# Add donation
-# Donation History
-
-# @commands.has_any_role(SENIOR_STAFF_ROLE, STAFF_ROLE)
-# @commands.has_permissions(administrator = True)
-# allowed_mentions = discord.AllowedMentions(roles=False)
